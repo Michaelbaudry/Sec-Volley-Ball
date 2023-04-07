@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+/*header*/
+.header {
+    background-color: red;
+    height: 175px;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.menu {
+    float: right;
+
+}
+
+.menu a {
+    color: white;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    color: blue;
+}
+
+/*Banner*/
+.banner, .ban, .ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    position: relative;
+}
+
+.inner-banner {
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: red;
+    text-shadow: 1px 1px 20px black;
+}
+
+.container h2 {
+    color: red;
+    text-shadow: 1px 1px 20px black; 
+}
+
+.inner-banner .btn-custom {
+    background-color: lightblue;
+    color: red;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: blue;
+}
+
+/*team*/
+.team img {
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+
+.team.html {
+    margin-top: 20%;
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+/*Les Evenement*/
+.évenement img {
+    width : 150px; height : 150px;
+    border: none;
+}
+
+.évenement.html {
+    margin-top: 20%;
+    padding-top: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+/*contact*/
+.contact.html {
+        margin-top: 50%;
+        padding-top: 150%;
+        width: 100%;
+        text-align: center;
+}
