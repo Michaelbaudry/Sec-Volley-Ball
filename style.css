@@ -4,6 +4,10 @@
     .nav .menu{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+    }
+    .ban img{
+        width: 100%
     }
 };
 
@@ -61,7 +65,7 @@ a, a:hover {
 /*Banner*/
 .banner, .ban, .ban img {
     width: 100%;
-    max-width: 100%;
+    max-width: 2000px;
     height: 45vh;
     object-fit: cover;
     position: relative;
@@ -97,6 +101,7 @@ a, a:hover {
 }
 
 /*team*/
+
 .team img {
     width : 150px; height : 150px;
     border: none;
